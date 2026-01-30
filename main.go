@@ -1,12 +1,18 @@
 package main
 
-import "fmt"
+import ( 
+	"fmt"
+)
 
+// Created a Struct named "Question" 
+// that has two strings named 
+// "ques" and  "answer"
 type Question struct{
 	ques string
 	answer string
 }
-
+// Creates a variable named "quiz"
+// that holds my Struct "Question" in an array
 var quiz = []Question{}
 
 func createQuestion(question string, answer string){ 
